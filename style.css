@@ -59,6 +59,7 @@ button {
     font-size: 0.8em;
     border-radius: 5%;
     outline: none;
+    border: none;
 }
 
 #clear {
@@ -67,4 +68,14 @@ button {
 
 #zero {
 grid-column: 1/3;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        display: inline;
+    }
+    h1, .calculator {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
